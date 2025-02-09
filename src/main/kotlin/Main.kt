@@ -3,6 +3,7 @@ package org.example
 import org.example.practiceoop.classexample.Vehicle
 import org.example.practiceoop.inheritance.Animal
 import org.example.practiceoop.inheritance.Cat
+import org.example.practiceoop.inheritance.Circle
 import org.example.practiceoop.inheritance.Dog
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -30,6 +31,7 @@ fun main() {
      */
 
     // using inheritance - 2
+    /*
     val c1 = Cat("Whiskers")
     c1.makeSound() // calls the overridden function
 
@@ -38,5 +40,9 @@ fun main() {
 
     val m2: Animal = Animal("Generic") // Polymorphism
     m2.makeSound() // calls the original function
+     */
 
+    // using inheritance - 3
+    val myCircle = Circle()
+    println(myCircle.color)
 }
