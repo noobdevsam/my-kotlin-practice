@@ -12,4 +12,9 @@ open class Animal(val name: String) {
     fun eat() {
         println("$name is eating")
     }
+
+    // 'open' for allowing overriding
+    open fun makeSound() {
+        println("Generic animal sound")
+    }
 }
